@@ -127,6 +127,7 @@ span {
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
+    text-align: justify;
 }
 .social-icons a {
     display: inline-flex;
@@ -213,19 +214,19 @@ span {
 @keyframes words {
     0%,
     20% {
-        content: "Machine Learning Researcher";
+        content: "Master's Student in AI";
     }
     21%,
     40% {
-        content: "Deep Learning Researcher";
+        content: "Machine Learning Researcher";
     }
     41%,
     60% {
-        content: "Frontend Designer";
+        content: "Deep Learning Researcher";
     }
     61%,
     80% {
-        content: "Web Developer";
+        content: "Frontend Designer";
     }
     81%,
     100% {
@@ -427,6 +428,7 @@ justify-content:center;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
+    text-align: justify;
 }
 
 ::-webkit-scrollbar {
@@ -824,5 +826,8 @@ justify-content:center;
         text-align: center;
         margin: 5rem 0;
         margin-bottom: 7rem;
+    }
+    .timeline-content p {
+        text-align: left;
     }
 }

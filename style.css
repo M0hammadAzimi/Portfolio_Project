@@ -214,23 +214,23 @@ span {
 @keyframes words {
     0%,
     20% {
-        content: "Master's Student in AI";
+        content: "Machine Learning Researcher";
     }
     21%,
     40% {
-        content: "Machine Learning Researcher";
+        content: "Deep Learning Researcher";
     }
     41%,
     60% {
-        content: "Deep Learning Researcher";
+        content: "Frontend Designer";
     }
     61%,
     80% {
-        content: "Frontend Designer";
+        content: "Software Engineering";
     }
     81%,
     100% {
-        content: "Software Engineering";
+        content: "Web Developer";
     }
 }
 @keyframes typing {
